@@ -1,1 +1,3 @@
 collection of my vim configuration options and plugins in Ubuntu
+
+Add the vimrc.local in /etc/vim folder
