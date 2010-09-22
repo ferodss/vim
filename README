@@ -2,10 +2,10 @@ collection of my vim configuration options and plugins in Ubuntu
 
 Add the vimrc.local in /etc/vim folder
 
-Add doc, ftplugin, nerdtree_plugin, plugin and syntax folders in yout home folder.
+Add doc, ftplugin, nerdtree_plugin, plugin and syntax folders in yout $HOME/.vim folder.
 e.g.
-/home/lfrsilva/doc
-/home/lfrsilva/ftplugin
-/home/lfrsilva/nerdtree_plugin
-/home/lfrsilva/plugin
-/home/lfrsilva/syntax
+/home/lfrsilva/.vim/doc
+/home/lfrsilva/.vim/ftplugin
+/home/lfrsilva/.vim/nerdtree_plugin
+/home/lfrsilva/.vim/plugin
+/home/lfrsilva/.vim/syntax
