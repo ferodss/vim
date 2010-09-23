@@ -52,9 +52,7 @@ set cinoptions=:0,p0,t0
 "set smarttab
 
 
-filetype indent on              " Enable file type plugin
-filetype on
-filetype plugin on
+filetype plugin indent on              " Enable file type plugin
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -117,7 +115,7 @@ let php_noShortTags = 1
 let php_folding = 0
 
 " PHP Doc
-source /home/lfrsilva/.vim/ftplugin/php-doc.vim
+source $HOME/.vim/ftplugin/php-doc.vim
 inoremap <buffer> <C-P> <Esc>:call PhpDocSingle()<CR>i
 nnoremap <buffer> <C-P> :call PhpDocSingle()<CR>
 vnoremap <buffer> <C-P> :call PhpDocRange()<CR>
@@ -131,7 +129,7 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 " Python Support
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " python dict
-let g:pydiction_location="/home/lfrsilva/.vim/ftplugin/pydiction-1.2/complete-dict"
+let g:pydiction_location=$HOME . "/.vim/ftplugin/pydiction-1.2/complete-dict"
 
 " For python.vim syntax by Dmitry Vasiliev. See ~/.vim/syntax/python.vim.
 let g:python_highlight_all=1
