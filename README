@@ -1,6 +1,11 @@
-collection of my vim configuration options and plugins in Ubuntu
+collection of my vim configuration options and plugins in OpenSuSe
 
-Move the vimrc.local in /etc/vim folder
+Move the vimrc.local in /etc
+
+Add the follow ine at the end of /etc/vimrc file
+if filereadable("/etc/vimrc.local")
+  exec "source /etc/vimrc.local"
+endif
 
 Move folders to $HOME/.vim folder.
 e.g.
