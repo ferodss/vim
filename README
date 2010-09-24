@@ -1,17 +1,19 @@
-collection of my vim configuration options and plugins in OpenSuSe
-
-Move the vimrc.local in /etc
+Options and plugin collections from my VIM in OpenSuSe
 
 Add the follow ine at the end of /etc/vimrc file
-if filereadable("/etc/vimrc.local")
-  exec "source /etc/vimrc.local"
+
+" Load user vim configuration file if exists
+if filereadable($HOME . "/.vim/vimrc.local")
+      exec "source " . $HOME . "/.vim/vimrc.local"
 endif
 
-Move folders to $HOME/.vim folder.
+
+Move all files and flders to $HOME/.vim folder.
 e.g.
-/home/lfrsilva/.vim/doc
-/home/lfrsilva/.vim/ftplugin
-/home/lfrsilva/.vim/nerdtree_plugin
-/home/lfrsilva/.vim/plugin
-/home/lfrsilva/.vim/syntax
+~/.vim/doc
+~/.vim/ftplugin
+~/.vim/nerdtree_plugin
+~/.vim/plugin
+~/.vim/syntax
+~/.vim/vimrc.local
 .....
