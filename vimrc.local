@@ -2,6 +2,8 @@
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
 set background=dark
+colorscheme molokai
+let g:molokai_original = 1
 
 " Uncomment the following to have Vim load indentation rules and plugins
 " according to the detected filetype.
@@ -131,27 +133,31 @@ let g:pydiction_location=$HOME . "/.vim/ftplugin/pydiction-1.2/complete-dict"
 " For python.vim syntax by Dmitry Vasiliev. See ~/.vim/syntax/python.vim.
 let g:python_highlight_all=1
 
-autocmd FileType python setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType python setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Ruby Support
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd FileType ruby setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType ruby setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " CSS Support
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd FileType css setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType css setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Javascript Support
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-autocmd FileType javascript setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
 let javascript_enable_domhtmlcss=1
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Scala Support
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd FileType scala setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Map auto complete for {, (, [, ", '
