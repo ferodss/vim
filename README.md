@@ -10,11 +10,8 @@ cd $HOME/.vim
 git clone https://github.com/felipedjinn/vim.git .
 ```
 
-Add the follow ine at the end of /etc/vimrc file
+Create a symbolic link from ~/.vim/.vimrc to ~/.vimrc
 
 ``` bash
-" Load user vim configuration file if exists
-if filereadable($HOME . "/.vim/vimrc.local")
-      exec "source " . $HOME . "/.vim/vimrc.local"
-endif
+ln -s ~/.vim/.vimrc ~/.vimrc
 ```
