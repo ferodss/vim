@@ -1,0 +1,4 @@
+*.swp
+.netrwhist
+bundle/*
+!bundle/vundle
