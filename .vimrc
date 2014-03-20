@@ -51,11 +51,10 @@ set nobackup
 set noswapfile
 
 " set default indentation of 4 character-wide tabs
-set ts=4
-set noexpandtab
-set softtabstop=4
 set tabstop=4
 set shiftwidth=4
+set softtabstop=4
+set expandtab
 
 set title
 set autoread
@@ -65,7 +64,7 @@ set visualbell
 " set default color scheme
 set background=dark
 colorscheme molokai
-"let g:molokai_original = 1
+let g:molokai_original = 1
 
 " Use <Ctrl + a> to toogle NERDTree
 nmap <silent><c-a> :NERDTreeToggle<CR>
