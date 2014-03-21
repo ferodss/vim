@@ -91,4 +91,4 @@ let php_folding = 0
 "let g:pdv_cfg_Uses = 1
 nmap <silent><c-p> :call PhpDocSingle()<CR>
 
-let g:pdv_cfg_Author = "Felipe Rodrigues <lfrs.web@gmail.com>"
+let g:pdv_cfg_Author = "Felipe Rodrigues <luiz.rodrigues@ezly.com.br>"
