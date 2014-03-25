@@ -68,6 +68,8 @@ let g:molokai_original = 1
 
 " Use <Ctrl + a> to toogle NERDTree
 nmap <silent><c-a> :NERDTreeToggle<CR>
+" Display hidden files on NERDTree
+let g:NERDTreeShowHidden=1
 
 
 " PHP Support
@@ -91,4 +93,4 @@ let php_folding = 0
 "let g:pdv_cfg_Uses = 1
 nmap <silent><c-p> :call PhpDocSingle()<CR>
 
-let g:pdv_cfg_Author = "Felipe Rodrigues <luiz.rodrigues@ezly.com.br>"
+let g:pdv_cfg_Author = "Felipe Rodrigues <lfrs.web@gmail.com>"
