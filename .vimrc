@@ -95,7 +95,7 @@ let php_folding = 0
 "nnoremap <buffer> <C-P> :call PhpDocSingle()<CR>
 "vnoremap <buffer> <C-P> :call PhpDocRange()<CR>
 "let g:pdv_cfg_Uses = 1
-nmap <silent><c-p> :call PhpDocSingle()<CR>
+nmap <silent><C-\> :call PhpDocSingle()<CR>
 
 " Open Volt files as HTML
 autocmd BufRead,BufNewFile *.volt setfiletype html
