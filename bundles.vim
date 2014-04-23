@@ -22,5 +22,6 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'stephpy/vim-phpdoc'
 Bundle 'jiangmiao/auto-pairs'
+Bundle 'evidens/vim-twig'
 
 filetype plugin indent on
