@@ -73,7 +73,7 @@ let g:NERDTreeShowHidden=1
 
 
 " PHP Support
-" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " highlight SQL syntax in strings
 let php_sql_query = 1
 
@@ -97,3 +97,14 @@ nmap <silent><c-p> :call PhpDocSingle()<CR>
 autocmd BufRead,BufNewFile *.volt setfiletype html
 
 let g:pdv_cfg_Author = "Felipe Rodrigues <lfrs.web@gmail.com>"
+
+
+" Ctrlp.vim
+" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Use <Ctrl + p> to open CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+
+set wildignore+=*/tmp/*,*/cache/*,*.so,*.swp,*.zip

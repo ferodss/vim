@@ -23,5 +23,6 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'stephpy/vim-phpdoc'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'evidens/vim-twig'
+Bundle 'kien/ctrlp.vim'
 
 filetype plugin indent on
