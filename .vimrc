@@ -66,6 +66,9 @@ set background=dark
 colorscheme molokai
 let g:molokai_original = 1
 
+" NERDTree
+" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Use <Ctrl + a> to toogle NERDTree
 nmap <silent><c-a> :NERDTreeToggle<CR>
 " Display hidden files on NERDTree
@@ -74,6 +77,7 @@ let g:NERDTreeShowHidden=1
 
 " PHP Support
 " """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " highlight SQL syntax in strings
 let php_sql_query = 1
 
