@@ -66,6 +66,9 @@ set background=dark
 colorscheme molokai
 let g:molokai_original = 1
 
+" NERDTree
+" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " Use <Ctrl + a> to toogle NERDTree
 nmap <silent><c-a> :NERDTreeToggle<CR>
 " Display hidden files on NERDTree
@@ -73,7 +76,8 @@ let g:NERDTreeShowHidden=1
 
 
 " PHP Support
-" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 " highlight SQL syntax in strings
 let php_sql_query = 1
 
@@ -91,9 +95,20 @@ let php_folding = 0
 "nnoremap <buffer> <C-P> :call PhpDocSingle()<CR>
 "vnoremap <buffer> <C-P> :call PhpDocRange()<CR>
 "let g:pdv_cfg_Uses = 1
-nmap <silent><c-p> :call PhpDocSingle()<CR>
+nmap <silent><C-\> :call PhpDocSingle()<CR>
 
 " Open Volt files as PHP
 autocmd BufRead,BufNewFile *.volt setfiletype php
 
 let g:pdv_cfg_Author = "Felipe Rodrigues <lfrs.web@gmail.com>"
+
+
+" Ctrlp.vim
+" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Use <Ctrl + p> to open CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+
+set wildignore+=*/tmp/*,*/cache/*,*.so,*.swp,*.zip
