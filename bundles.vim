@@ -25,5 +25,6 @@ Bundle 'jiangmiao/auto-pairs'
 Bundle 'evidens/vim-twig'
 Bundle 'kien/ctrlp.vim'
 Bundle 'joonty/vdebug.git'
+Bundle 'airblade/vim-gitgutter'
 
 filetype plugin indent on
