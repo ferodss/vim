@@ -93,7 +93,7 @@ let php_folding = 0
 "let g:pdv_cfg_Uses = 1
 nmap <silent><c-p> :call PhpDocSingle()<CR>
 
-" Open Volt files as HTML
-autocmd BufRead,BufNewFile *.volt setfiletype html
+" Open Volt files as PHP
+autocmd BufRead,BufNewFile *.volt setfiletype php
 
 let g:pdv_cfg_Author = "Felipe Rodrigues <lfrs.web@gmail.com>"
