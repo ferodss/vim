@@ -103,6 +103,17 @@ autocmd BufRead,BufNewFile *.volt setfiletype php
 let g:pdv_cfg_Author = "Felipe Rodrigues <lfrs.web@gmail.com>"
 
 
+" GitGutter
+" """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Tell vim-gitgutter to use raw grep
+let g:gitgutter_escape_grep = 1
+
+" Turn on line highlighting by default
+let g:gitgutter_highlight_lines = 1
+
+
+
 " Ctrlp.vim
 " """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
